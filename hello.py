@@ -1,11 +1,9 @@
-print("My name is Andrew")
+print("We need to get some basic information from you.")
 
-for count in range(1, 11):
-    print(count, end=' ')
-    print()
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-x = 10
-if x <= 5:
-    print("True")
+if age < 21:
+    print("Sorry, you're too young to visit this site.")
 else:
-    print("X is greater than 10")
+    print(f"Welcome {name}, thanks for visiting!")
